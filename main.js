@@ -14,9 +14,9 @@ function exibenome()
     document.getElementById("nome").value ="";
 }
 
-document.getElementById("btn-soma").addEventListener("click", somar);
+document.getElementById("btn-soma").addEventListener("click", exiberesultado);
 
-function somar()
+function exiberesultado()
 {
     let conta = document.getElementById("num1").value;
     document.getElementById("num2").innerHTML = "Soma:" + somar;
