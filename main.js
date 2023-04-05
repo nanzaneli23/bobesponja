@@ -19,7 +19,7 @@ document.getElementById("btn-soma").addEventListener("click", exiberesultado);
 function exiberesultado()
 {
     let conta = document.getElementById("num1").value;
-    document.getElementById("num2").innerHTML = "Soma:" + somar;
+    document.getElementById("num2").innerHTML = "number" + number
     document.getElementById("resultado1").value ="";
 }
 
