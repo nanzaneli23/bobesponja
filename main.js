@@ -13,3 +13,14 @@ function exibenome()
     document.getElementById("mensagem").innerHTML = "Meu nome é:" + usuario;
     document.getElementById("nome").value ="";
 }
+
+document.getElementById("btn-soma").addEventListener("click", somar);
+
+function somar()
+{
+    let conta = document.getElementById("num1").value;
+    document.getElementById("num2").innerHTML = "Soma:" + somar;
+    document.getElementById("resultado1").value ="";
+}
+
+
